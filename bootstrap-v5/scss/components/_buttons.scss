@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+
+
+.btn-rounded{
+    position: relative;
+    padding: 0.9375rem 4.37rem 0.937rem 2.5rem;
+    font-weight: 500;
+    margin: 0;
+
+    background-color: $white;
+    border: 0.1rem solid rgba($color: ($white), $alpha: 0.6);
+    span{
+        position: absolute;
+        background-color: $primary;
+        width: 2.0rem;
+        height: 2.0rem;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+    }
+
+}

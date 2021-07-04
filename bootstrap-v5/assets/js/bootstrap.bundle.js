@@ -151,7 +151,7 @@
     const selector = getSelector(element);
     return selector ? document.querySelector(selector) : null;
   };
-
+ 
   const getTransitionDurationFromElement = element => {
     if (!element) {
       return 0;

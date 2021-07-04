@@ -10746,6 +10746,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.37rem 0.937rem 2.5rem;
+  font-weight: 500;
+  margin: 0;
+  background-color: #fff;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #41b3a3;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
 .menu {
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
