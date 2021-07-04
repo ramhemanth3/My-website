@@ -1,0 +1,19 @@
+@use '../custom' as *;
+.menu{
+    background-color: #4158D0;
+   // background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    li{
+        padding: 0 0.69rem;
+
+        a{
+            color:$white !important;
+            text-transform: capitalize;
+            font-weight: 690;
+            
+        }
+
+    }
+   
+    
+}
