@@ -1,8 +1,12 @@
 @use 'custom';
+
+//Importing components
 @use 'components/animations';
 @use 'components/buttons';
-@use 'components/mixings';
+@use 'components/mixins';
 @use 'components/typography';
+
+//Importing sections
 @use 'sections/navbar';
 @use 'sections/Current';
 @use 'sections/introSection';
@@ -10,6 +14,7 @@
 @use 'sections/projects';
 @use 'sections/hmu';
 @use 'sections/footer';
-@use 'sections/technologies'
+@use 'sections/technologies';
 
-/*# sourceMappingURL=style.css.map */
+
+
